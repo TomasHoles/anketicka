@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home-page</title>
+</head>
+<body>
+    <header>
+        <h1>Anketa o strachu</h1>
+    </header>
+    <main>
+        
+        <form action="/submit" method="post">
+            <label class="lol" for="author">Jméno a příjmení:</label><br>
+            <input type="text" id="author" name="author" required><br>
+            <label class="lol" for="message">Z čeho máte největší strach :</label><br>
+            <textarea id="message" name="message" required></textarea>
+            <br> <br>
+            <button type="submit" value="Odeslat">Odeslat</button>
+            <br> <br>
+            <button class="adolf" type="submit" value="Odeslat">Vyplnit anketu</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p class="center">Copyright 2024 - IT2</p>
+    </footer>
+</body>
+</html>
